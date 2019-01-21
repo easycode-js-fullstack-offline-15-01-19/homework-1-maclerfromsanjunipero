@@ -19,15 +19,16 @@ value = string.indexOf('string');
 
 //--- Задача 4 ---
 
-value = string.indexOf(' ', string.indexOf('t'));
+let firstSpaceIndex = string.indexOf(' ');
+value = string.indexOf(' ', firstSpaceIndex + 1);
 
 //--- Задача 5 ---
 
-value = string.substr(5,  4);
+value = string.substr(4,  4);
 
 //--- Задача 6 ---
 
-value = string.substring(5, 9);
+value = string.substring(4, 9);
 
 //--- Задача 7 ---
 
